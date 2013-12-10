@@ -3,18 +3,18 @@ Contributors: ideag
 Donate link: http://kava.tribuna.lt/en/
 Tags: table of contents, toc, headings
 Requires at least: 3.0.0
-Tested up to: 3.5.1
+Tested up to: 3.7.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Automaticly builds a Table of Contents once specific number (eg. 3) of headings (h1-h5) is reached and inserts it before or after post/page content.
+Automaticly builds a Table of Contents once specific number (eg. 3) of headings (h1-h6) is reached and inserts it before or after post/page content.
 
 == Description ==
 
 This plugin is meant to help with navigation in long texts by forming an automatic Wikipedia-like table of contents. 
 
-It works by scannig the text for headings (`<h1>-<h5>` HTML tags). If more than a certain amount of headings (3 by default) are found - a table of contents with bookmarks is formed and inserted to the post content. Location (above or below) the text can be chosen in settings page.
+It works by scannig the text for headings (`<h1>-<h6>` HTML tags). If more than a certain amount of headings (3 by default) are found - a table of contents with bookmarks is formed and inserted to the post content. Location (above or below) the text can be chosen in settings page.
 
 TOC is formed as HTML5 `<nav>` element with nested ordered list inside. No specific styling is provided, so that it fits organicaly into the text. If you need specific styling, include it to your theme's CSS.
 
@@ -40,6 +40,10 @@ Not at the moment, but I am considering this feature in a later release.
 No screenshots.
 
 == Changelog ==
+
+= 0.2 =
+* Widget added (thanks to Darcy W. Christ)
+* Small bug fixes
 
 = 0.1 =
 * Initial release
